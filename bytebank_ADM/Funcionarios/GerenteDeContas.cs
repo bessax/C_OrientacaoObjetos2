@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace bytebank_ADM.Funcionarios
 {
-    public class GerenteDeConta : FuncionarioAutenticavel
+    public class GerenteDeConta : Funcionario
     {
         public GerenteDeConta(string cpf) : base(4000, cpf)
         {
