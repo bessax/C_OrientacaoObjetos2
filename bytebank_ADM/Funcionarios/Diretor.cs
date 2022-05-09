@@ -12,7 +12,7 @@ namespace bytebank_ADM.Funcionarios
         public string CPF { get; set; }
         public double Salario { get; set; }
 
-        public double GetBonificacao()
+        public double getBonificacao()
         {
             return Salario;
         }

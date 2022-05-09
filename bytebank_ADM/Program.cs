@@ -20,9 +20,9 @@ maria.Salario = 5000;
 gerenciador.Registrar(maria);
 
 Console.WriteLine(andre.Nome);
-Console.WriteLine(andre.GetBonificacao());
+Console.WriteLine(andre.getBonificacao());
 
 Console.WriteLine(maria.Nome);
-Console.WriteLine(maria.GetBonificacao());
+Console.WriteLine(maria.getBonificacao());
 
 Console.WriteLine("Total de bonificações: " + gerenciador.GetTotalBonificacao());
