@@ -17,7 +17,7 @@ namespace bytebank_ADM.Funcionarios
             Salario *= 1.1;
         }
 
-        public override double GetBonificacao()
+        public override double getBonificacao()
         {
             return Salario * 0.2;
         }
