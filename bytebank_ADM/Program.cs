@@ -11,7 +11,7 @@ CalcularBonificacao();
 
 Console.ReadKey();
 
-static void CalcularBonificacao()
+void CalcularBonificacao()
 {
     GerenciadorDeBonificacao gerenciadorBonificacao = new GerenciadorDeBonificacao();
 
